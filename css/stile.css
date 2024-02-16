@@ -1,0 +1,147 @@
+
+header{
+ background-color:rgba(33, 33, 33, 1);
+ position: fixed;
+ width: 100%;
+ margin-top:0;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20;
+    display: flex;
+    gap: 1px;
+    
+}
+
+nav a {
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding-right: 30px;
+    
+
+}
+body {
+   background-color:rgba(57, 155, 108, 1); 
+   margin:0;
+  
+}
+
+
+section.card {
+    font-family: "Roboto Mono", monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 75px; 
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    text-align: center;
+}
+
+
+
+section.card h3{
+    margin: 0;
+    font-size: 18px;
+    margin-top:30px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+
+section.card div {
+    background-color:rgba(245, 245, 245, 1) 
+
+    
+   
+}
+
+section.card img {
+    padding: 20px;
+    height: 900px%;
+    object-fit: cover;
+    width: 50%;
+   
+}
+
+
+section.Testofooter {
+   
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    margin:0;
+    font-size: 100%;
+    font-weight: normal;
+    justify-content: space-between;
+    text-align: center;
+    background-color:rgba(225, 104, 93, 1)
+
+}
+
+footer {
+    padding-top: 10%;
+}
+
+
+h1{
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+  
+   
+}
+
+section.Illustrazioni {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    gap: 15px; 
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    text-align: center;
+  
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    color: rgba(255, 229, 91, 1);
+    text-align: center;
+    font-style: bold;
+}
+
+h5{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    color: rgba(255, 229, 91, 1);
+    font-style: bold;
+    font-size: 30px;
+  
+   
+}
+h4{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style:italic;
+    font-size: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+   
+}
